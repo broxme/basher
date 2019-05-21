@@ -1,0 +1,11 @@
+Package: basher
+Priority: optional
+Section: main
+Maintainer: BroxMe Technology and BroxMe Developer Network
+Architecture: all
+Version: 1.0.0
+Depends: memtest86+, coreutils, dialog, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, ubiquity-frontend-debconf, user-setup, discover | discover1, laptop-detect, isolinux, syslinux, syslinux-utils, util-linux, python, python-glade2, python-vte, plymouth-x11, menu, xorriso, genisoimage, mokutil, sbsigntool, dnsutils
+Conflicts: remastersys, remastersys-gtk
+Provides: remastersys, remastersys-gtk
+Description: Scripts used for building BasH Linux ISO images
+ A set of scripts based on remastersys to build BasH ISO images

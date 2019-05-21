@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+
+# remove leftover pool directory 
+if [ -d /etc/basher/uefi/pool/ ] ; then
+  yes | rm -rf /etc/basher/uefi/pool/
+fi
+
+# remove deb files from previous install
+if [ -d /etc/basher/uefi/dists/pool/ ] ; then
+  yes | rm -f /etc/basher/uefi/dists/pool/*
+fi
+
+# remove a leftover original ubiquity.desktop file
+if [ -e /usr/share/applications/UBIQUITY.desktop_ORIG ] ; then
+  yes | rm -f /usr/share/applications/UBIQUITY.desktop_ORIG
+fi
+
+# got rid of basher-skelcopy
+if [ -e /usr/bin/basher-skelcopy ] ; then
+  yes | rm -f /usr/bin/basher-skelcopy
+fi
+
+exit 0

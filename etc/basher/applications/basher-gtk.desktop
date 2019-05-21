@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=basher
+Name[de]=basher
+Name[es]=basher
+Name[fi]=basher
+Name[fr]=basher
+Name[ko]=basher
+Name[no]=basher
+Name[pt_BR]=basher
+Name[sl]=basher
+Name[sv]=basher
+Name[uk]=basher
+Name[ro]=basher
+Name[zh_TW]=basher
+GenericName=basher
+Comment=Backup your Ubuntu-based OS
+Comment[de]=Backup your Ubuntu-based OS
+Exec=su-to-root -X -c /usr/bin/basher-gtk
+Icon=/usr/share/icons/basher-gtk.png
+Terminal=false
+Type=Application
+Categories=GTK;System;
+StartupNotify=true

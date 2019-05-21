@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+
+#~ # copy BB icon to other locations
+#~ if [ ! -d /usr/share/icons/hicolor/scalable/apps/ ] ; then
+  #~ mkdir /usr/share/icons/hicolor/scalable/apps/
+#~ fi
+#~ yes | cp /usr/share/icons/basher-gtk.png /usr/share/icons/hicolor/scalable/apps/basher-gtk.png
+
+# remove custom_repos starting in v1.0.0
+if [ -e /etc/basher/apt/custom_repos ] ; then
+  yes | rm -f /etc/basher/apt/custom_repos
+fi
+if [ -e /etc/basher/custom_repos ] ; then
+  yes | rm -f /etc/basher/custom_repos
+fi
+
+# make sure an installation of BB doesn't run thru 'firstboot'
+(sleep 5 && update-rc.d -f basher-firstboot remove) &
+
+
+exit 0

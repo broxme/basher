@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+
+# remove the basher home dir from previous install
+if [ -d /home/basher ] ; then
+  yes | rm -rf /home/basher
+fi
+
+# remove deb files from previous install
+if [ -d /etc/basher/uefi/dists/pool ] ; then
+  yes | rm -f /etc/basher/uefi/dists/pool/*
+fi
+
+# remove a leftover original ubiquity.desktop file
+if [ -e /usr/share/applications/UBIQUITY.desktop_ORIG ] ; then
+  yes | rm -f /usr/share/applications/UBIQUITY.desktop_ORIG
+fi
+
+# remove basher's ubiquity.desktop file
+if [ -e /usr/share/applications/ubiquity.desktop_BB ] ; then
+  yes | rm -f /usr/share/applications/ubiquity.desktop_BB
+fi
+
+# remove firstboot file
+if [ -e /etc/init.d/basher-firstboot ] ; then
+  yes | rm -f /etc/init.d/basher-firstboot
+fi
+
+#~ # remove leftover icons
+#~ if [ -e /usr/share/pixmaps/basher-gtk.png ] ; then
+  #~ yes | rm -f /usr/share/pixmaps/basher-gtk.png
+#~ fi
+#~ if [ -e /usr/share/icons/basher-gtk.png ] ; then
+  #~ yes | rm -f /usr/share/icons/basher-gtk.png
+#~ fi
+#~ if [ -e /usr/share/icons/bbinstall.png ] ; then
+  #~ yes | rm -f /usr/share/icons/bbinstall.png
+#~ fi
+#~ if [ -e /usr/share/icons/bbinstall_previous.png ] ; then
+  #~ yes | rm -f /usr/share/icons/bbinstall_previous.png
+#~ fi
+
+
+
+exit 0
