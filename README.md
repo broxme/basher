@@ -1,9 +1,9 @@
-# basher
-Build your own linux distro and share it all over the world within a moment.
+# Basher
+<h2>Build your own linux distro and share it all over the world within a moment.</h2>
 
     a script modified from Remastersys, which will now create a livecd/dvd from a working BasH Linux install .
 
-Limitations of remastering
+<h3>Limitations of remastering</h3>
 
 Due to some common questions I keep getting asked repeatedly I have put the answers here.
 
@@ -57,11 +57,16 @@ Most problems in dist mode are created by yourself due to customization or packa
 These issues have nothing to do with remastersys. They conflict with Ubuntu's casper livecd boot tool and Ubuntu's ubiquity installer and those aren't going to be changed to suit your needs. If you want to make changes to them, you will need to fork those projects off on your own.
 
 For more information, please visit http://bash.broxme.com
-Contributor
+<h2>Contributor</h2>
+<br >
 
-BroxMe Technology support@broxme.com
-BroxMe Developer Network developer@broxme.com
-Fahim Islam Sabuj fahim@broxme.com
+BroxMe Technology <support@broxme.com>
+<br >
+BroxMe Developer Network <developer@broxme.com>
+<br >
+Fahim Islam Sabuj <fahim@broxme.com>
+<br >
 
 COMMENTS FROM REMASTERSYS' ORIGINAL AUTHOR:
+<br >
 (I cannot guarantee the authenticity of these comments toward basher scripts -sef)
