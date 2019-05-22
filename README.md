@@ -15,7 +15,7 @@ There are some limitations for remastering right now and they have absolutely no
 
 3 - no official text mode installer for the livecd so all remasters that you want to be able to install must have a gui
 
-    no workaround
+   no workaround
 
 4 - Install options limited to what Ubuntu's installer, Ubiquity can do - no workaround
 
@@ -27,7 +27,7 @@ There are some limitations for remastering right now and they have absolutely no
 
 8 - livecd only works properly with linux-generic livecd kernel - if you make your own kernel you are on your own
 
-    unsupported so please don't ask for help with this
+   unsupported so please don't ask for help with this
 
 9 - if it isn't in the normal Ubuntu repositories or requires a patch of an app that changes it from stock ubuntu apps it is completely unsupported so please don't ask me for help with these
 
@@ -35,7 +35,7 @@ There are some limitations for remastering right now and they have absolutely no
 
 11 - if your customizations are not showing up on the livecd then it means you have not made the changes in the correct place. You must figure out what files need to be changed or where the global configuration of the settings are that you are trying to change. I only use KDE so I couldn't answer any gnome related questions anyway.
 
-    you are on your own.
+   you are on your own.
 
 I have no intentions of maintaining a fork of casper or ubiquity or any other app so please don't ask me to change any of the above. I make remastersys which helps you remaster a base Ubuntu desktop live system and thats it.
 
