@@ -2,9 +2,9 @@
 #
 
 # used to update the version number throughout the necessary files in basher
-#   usr/share/basher-gtk/basher-gtk.py:APP_VERSION = "1.0.0"
-#   etc/basher/basher.version:BASHERVERSION="1.0.0"
-#   DEBIAN/control:Version: 1.0.0
+#   usr/share/basher-gtk/basher-gtk.py:APP_VERSION = "1.0.1"
+#   etc/basher/basher.version:BASHERVERSION="1.0.1"
+#   DEBIAN/control:Version: 1.0.1
 #   
 
 curr_version=`cat ./etc/basher/basher.version | cut -d\" -f2`
